@@ -1,0 +1,31 @@
+{% extends 'core/base.html' %}
+
+{% block title %}About Me{% endblock title %}
+
+{% block background %}{% load static %}{% static 'core/img/aboutme03.jpg' %}{% endblock background %}
+
+{% block headers %}
+    <h1>About me</h1>
+    <span class="subheading">Biography</span>
+{% endblock headers %}
+
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+     <img class="img-fluid avatar" src="{% static 'core/img/JPB.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8"><br>
+        <h2 class="section-heading">Juan Pablo Borrell</h2><br>
+        <h3 class="section-subheading">Personal Life</h3>
+        <p> I was born on August 30, 1980, in Buenos Aires, Argentina, and completed all of my studies in the same city. After finishing high school, I pursued both work and further studies concurrently, seeking independence. I am happily married and have two children. Spending quality time with my family is something I deeply cherish, whether it's playing, running, or having a barbecue outdoors. Since July 2020, I have been living in Germany.</p><br>
+    </div>
+    <div class="col-lg-50 col-md-25">
+        <h3 class="section-subheading">Hobbies and free time</h3>
+        <p> I like sports such as handball or riding a bicycle, but my passion is soccer. I try as much as possible to show my children that sport is very good, not only because it helps their health; but also as a way to socialize and make new friends. I also really like to read, especially history books or thrillers. I like travel and to know new places, customs and foods. Together with my wife, we like to share series and movies.</p><br>
+        <h3 class="section-subheading">Career</h3>
+        <p>With a deep passion for technology, I embarked on my IT career right after completing high school. Over the span of 20 years, I have gained extensive experience working in both small companies and multinational corporations, including Ernst & Young (EY), Bayer AG, and Accenture. Since moving to Germany, I have been part of Skaylink GmbH and currently work at Vernaio GmbH. Throughout my career, I have been part of diverse teams, tackling various tasks and continuously learning new technologies. I have also pursued essential courses and certifications to enhance my knowledge and expertise. Staying up to date with the latest technologies aligns with my professional goals, always building upon my technological preferences..
+        </p>
+    </div>
+</div>
+{% endblock content %}

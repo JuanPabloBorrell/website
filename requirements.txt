@@ -19,4 +19,5 @@ setuptools==58.2.0
 sqlparse==0.4.2
 toml==0.10.2
 typing-extensions==3.10.0.2
+wheel==0.37.0
 wrapt==1.13.3
